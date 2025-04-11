@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Regex and String</title>
+</head>
+<body>
+<script>
+let text = "The rain in Spain stays mainly in the plain.";
+// Using RegEx
+let result = text.match(/ain/g);
+document.write("Matched substrings: " + result + "<br>");
+// Other String methods
+document.write("Length: " + text.length + "<br>");
+document.write("Uppercase: " + text.toUpperCase() + "<br>");
+document.write("Replace: " + text.replace("rain", "sun") +
+"<br>");
+</script>
+</body>
+</html>
