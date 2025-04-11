@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Selectors</title>
+<style>
+/* Pseudo-element */
+p::first-letter {
+font-size: 200%;
+color: red;
+}
+/* Combinator: descendant */
+div p {
+color: blue;
+}
+/* Combinator: child */
+ul > li {
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div>
+<p>This paragraph is inside a div.</p>
+</div>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+</ul>
+</body>
+</html>
