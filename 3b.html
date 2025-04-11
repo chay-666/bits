@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weekdays with Switch</title>
+</head>
+<body>
+<script>
+let day = new Date().getDay();
+let weekday;
+switch(day) {
+case 0: weekday = "Sunday"; break;
+case 1: weekday = "Monday"; break;
+case 2: weekday = "Tuesday"; break;
+case 3: weekday = "Wednesday"; break;
+case 4: weekday = "Thursday"; break;
+case 5: weekday = "Friday"; break;
+case 6: weekday = "Saturday"; break;
+default: weekday = "Invalid day";
+}
+document.write("Today is " + weekday);
+</script>
+</body>
+</html>
