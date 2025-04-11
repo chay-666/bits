@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bank Denomination</title>
+</head>
+<body>
+<script>
+let amount = 163;
+let notes = [100, 50, 20, 10, 5, 2, 1];
+for (let i = 0; i < notes.length; i++) {
+let count = Math.floor(amount / notes[i]);
+if (count > 0) {
+document.write(count + " - " + notes[i] + "s<br>");
+}
+amount %= notes[i];
+}
+</script>
+</body>
+</html>
